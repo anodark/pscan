@@ -23,6 +23,21 @@ Pscan is a Network Scanner That detects packets and can log them to a pcap file 
   ~~~
   sudo make uninstall
   ~~~
+# Usage
+ You can log files to .pcap and .pcapng and txt with
+ ~~~
+ pscan -f log.yourext
+ ~~~
+ You can also Set a Packet count with
+ ~~~
+ pscan --count 10
+ ~~~
+ You can also use the Netfilter , but disclamer it will block  the actual ip/port/protocol from your device , so you may be  logged out of the internet
+ ~~~
+ pscan --filter "targetport=10,ip=0.0.0.0,dip=0.0.0.0,proto=0"
+ ~~~
+ dip = Destination ip
+ proto = Protocol
 # Notice
   You have to run this program with sudo or as root
   # Debugging 
