@@ -9,7 +9,7 @@ Pscan is a Network Scanner That detects packets and can log them to a pcap file 
 # Installation
   Clone the repository
   ~~~
-    git clone https://github.com/anodark/pscan.git 
+    git clone https://github.com/afnrow/pscan.git 
     cd pscan
   ~~~
   Then make the Program
